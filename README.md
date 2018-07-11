@@ -4,13 +4,13 @@ Using AWS Athena to create data Analysis based on my own personal site held on A
 # Setup:
   Website:
   
-#  AWS S3:
+  AWS S3:
   In AWS S3 I have a basic static website directory structure, I have also enabled server access logging and static website   hosting on my S3 bucket.
   
- # Athena:
-    Create a table which has the location set to the where the logging target bucket is. Try to partition the data, this can keep the costs of Athena down.
+  Athena:
+   Create a table which has the location set to the where the logging target bucket is. Try to partition the data, this can keep the costs of Athena down.
     
-#  Quicksight:
+ Quicksight:
  Connect Quicksight to the Athena Table and this will generate the graphs for you.
  
  # Goal:
